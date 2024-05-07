@@ -1,15 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Lexend Deca";
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f8f9fa;
+    background-color: #c19ee0;
     margin: 0;
     padding: 0;
 }
 
 .container {
-    width: 80%;
+    width: 70vw;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #dab6fc;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -22,7 +29,20 @@ h1, h3 {
 p {
     text-align: center;
     font-size: 1.2em;
-    color: #555;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.main-header {
+    margin: 20px auto;
+    width: 90%;
+    padding: 20px;
+    font-weight: bolder;
+    background-color: #6247aa;
+    color: whitesmoke;
+    font-size: 3rem;
+    font-family: "Lexend Deca";
+    border-radius: 10px;
 }
 
 form {
@@ -33,6 +53,7 @@ label {
     display: block;
     margin-bottom: 5px;
     color: #333;
+    font-size: 1.2rem;
 }
 
 input[type="text"], input[type="submit"] {
@@ -46,15 +67,16 @@ input[type="text"], input[type="submit"] {
 }
 
 input[type="submit"] {
-    background-color: #007bff;
+    background-color: #bbadff;
     color: white;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s;
+    font-weight: bold;
 }
 
 input[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #6247aa;
 }
 
 footer {
@@ -62,4 +84,37 @@ footer {
     margin-top: 20px;
     color: #888;
     font-size: 0.8em;
+}
+
+.jumbotron {
+    width: 70vw;
+    height: 58vh;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 20px;
+    display:flex;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.jumbotext {
+    width: 50%;
+}
+
+.jumbotext p {
+    text-align: justify;
+    padding-right: 20px;
+    color: black;
+
+}
+
+.jumboimage {
+    width: 50%;
+}
+
+.jumboimage img {
+    width: 500px;
+    height: 400px;
 }

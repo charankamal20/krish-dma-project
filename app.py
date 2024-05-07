@@ -28,7 +28,7 @@ def predictPage():
     features = [np.array(reverse_scaled_features)]
     predictedFinalClass = model.predict(features)
 
-    predictedFinalClass = diagnosis_dict[predictedFinalClass[0]]    
+    predictedFinalClass = diagnosis_dict[predictedFinalClass[0]]
 
     return render_template("index.html", prediction = predictedFinalClass)
 
