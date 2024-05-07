@@ -8,8 +8,8 @@ model = pickle.load(open('model.pkl','rb'))
 
 # required conversion for the model
 diagnosis_dict = {
-    0: "Nhi Hai",
-    1: "Hai"
+    0: "Benign",
+    1: "Malignant"
 }
 
 @app.route("/")   # used to define the routes on the web pages
